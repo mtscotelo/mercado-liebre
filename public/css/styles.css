@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+/* Body */
+
+.header-home {
+    background-color: var(--amarillo);
+    }
+
+.main-home ,.footer-home {
+    background-color: var(--Grisclaro);
+  
+  }
+
+  /* header */
+
+  .header-home img {
+    width: 40%; 
+    margin: 20px 0 10px 10px; 
+}
+
+.header-home form input {
+    width: 50%; 
+    margin: 10px 0px 1px 10px; 
+}
+
+.header-home h4 {
+    padding-left: 35px; 
+}
+
+.header-home nav ul {
+    list-style: none;
+    padding: 20px 0 0 0;
+    padding-bottom: 10px; 
+}
+
+.header-home nav ul li a {
+    color: black; 
+    text-decoration: underline; 
+}
+
+.logo-busqueda {
+    border: 1.5px solid black; 
+    background-color: var(--Grisclaro);
+    width: 20px; 
+    margin: 1px 10px 10px 10px; 
+    padding-left: 3px;
+}
+.burger-menu {
+    background-color: var(--celeste);
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    margin-left: 50%;
+    border-radius: 4px;
+    padding-top: 10px;
+    color: var(--Grisclaro);
+}
+
+/*general*/
+
+:root {
+    /*fuentes*/
+
+      --roboto : 'Roboto', sans-serif;
+
+      /* tamaño tipografía*/
+
+      --cuerpodetexto : 12px ; 
+      --titulares : 24px ;
+      --Precios: 18px ;
+      --Descuentos: 16px;
+      --Descripciones: 16px ;
+  
+      /*colores*/
+
+      --amarillo : #EAC926;
+      --Azul : #03264C;
+      --celeste :  #1259c3;
+       --Grisoscuro : #666;
+       --Grisclaro : #ebebeb;
+       --Verde : #39b54a;
+  }
+  
+  *{
+    margin: 0px;
+    font-family: var(--roboto);
+  }
+
+  /* Footer */
+  
+  .footer{
+
+  }
+  .footer{
+      text-align: center;
+  }
+  
+  .footer section i{
+      color: var(--celeste);
+      font-size: 2em;
+      padding-top: 10px;
+  
+  }
+  
+  .footer h4 {
+      padding-top: 5px;
+      font-size: var(--Precios);
+  }
+  
+  .footer h5 {
+      margin-bottom: 10px;
+      font-size: var(--cuerpodetexto);
+      margin-bottom: 30px;
+  }
+  
+  .footer section p {
+      padding-top: 40px;
+      padding-left: 10px;
+      text-align: left;
+      font-size: var(--cuerpodetexto);
+  }
